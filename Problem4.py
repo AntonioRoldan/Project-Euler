@@ -1,6 +1,5 @@
 def isPalindrome(S):
     S = list(S)
-    boolean_list = []
     limit = len(S)//2
     counter = 0
     x = 0
