@@ -7,11 +7,10 @@ def isPalindrome(S):
     while counter < limit:
         if S[x] != S[y]:
             return False
-        elif S[x] == S[y]:
-            counter += 1
-            S[x] = S[y]
-            x += 1
-            y -= 1
+        counter += 1
+        S[x] = S[y]
+        x += 1
+        y -= 1
 
     return True
 
