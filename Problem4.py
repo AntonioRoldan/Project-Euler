@@ -35,6 +35,6 @@ def main():
                     results.append(n * n + factor)
                     factor += 1
 
-    print(max([n for n in results if isPalindrome(str(n)) == True]))
+    print(max([n for n in results if isPalindrome(str(n))]))
 
 main()
